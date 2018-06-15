@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const fs = require('fs')
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 4000
 
 app.get('/Registry.json', sendFileContent)
 app.get('/Parameterizer.json', sendFileContent)
@@ -16,7 +16,7 @@ function sendFileContent(req, res) {
     }
     res.header('Access-Control-Allow-Origin', '*')
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept')
-    res.send(data)
+    res.json(data)
   })
 }
 

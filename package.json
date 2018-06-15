@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/open-science-network/osn-tcr-contracts-api#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "express-prettify": "0.0.10"
   },
   "devDependencies": {
     "nodemon": "^1.17.5"

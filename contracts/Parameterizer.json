@@ -27820,8 +27820,8 @@
                                 "typeIdentifier": "t_bytes32",
                                 "typeString": "bytes32"
                               },
+                              "typeIdentifier": "t_uint256",
                               {
-                                "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
                               },
                               {
